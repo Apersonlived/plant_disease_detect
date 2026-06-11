@@ -93,9 +93,9 @@ TREATMENT_INFO = {
 
 # Model file paths — place .pth files in the same folder as app.py
 MODEL_PATHS = {
-    "Baseline CNN"        : "./baseline_cnn_best.pth",
-    "Improved CNN"        : "./improved_cnn_best.pth",
-    "Fine-Tuned ResNet50" : "./finetuned_resnet50_best.pth",
+    "Baseline CNN"        : "models/baseline_cnn_best.pth",
+    "Improved CNN"        : "models/improved_cnn_best.pth",
+    "Fine-Tuned ResNet50" : "models/finetuned_resnet50_best.pth",
 }
 
 NUM_CLASSES = len(CLASS_NAMES)
